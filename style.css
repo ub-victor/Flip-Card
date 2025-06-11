@@ -43,3 +43,12 @@ body {
     flex-direction: column;
     border-radius: 10px;
 }
+
+.card-front {
+    background: #3498db;
+}
+
+.card-back{
+    background: #2ecc71;
+    transform: rotateY(180deg)
+}
