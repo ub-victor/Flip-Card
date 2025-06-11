@@ -18,5 +18,15 @@ body {
 }
 
 .card {
-    
+    width: 300px;
+    height: 200px;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
 }
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
