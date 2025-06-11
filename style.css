@@ -36,6 +36,9 @@ body {
     height: 100%;
     padding: 20px;
     color: while;
+    /* The backface-visibility property hides the back side of the element when it is not facing the viewer.
+       It is applied to both .card-front and .card-back so that when the card is flipped, only the front or back is visible at a time.
+       If you remove this property, both sides may be visible during the flip, causing a mirrored or overlapping effect. */
     backface-visibility: hidden;
     display: flex;
     justify-content: center;
